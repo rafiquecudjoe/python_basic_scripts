@@ -83,12 +83,32 @@
 # scores.append(int(8))
 # print(scores)
 
-raf = {}
-raf['first_name'] = 'Rafique'
-raf['second_name'] = "Adam Cudjoe"
-print(raf)
+# raf = {}
+# raf['first_name'] = 'Rafique'
+# raf['second_name'] = "Adam Cudjoe"
+# print(raf)
 
-people = []
-people.append(raf)
-print(people)
+# people = []
+# people.append(raf)
+# print(people)
    
+
+address = ("Hello",1 , 3 , "slim", ["5",7],{1:"hello"},9.8)
+
+# for item in address:
+#     print(item,"==>",1)
+
+# list = list(address)
+print(address[0])
+
+print(address)
+
+student = {
+    'name':'Rafique'
+}
+
+student.update({'city':'Accra'})
+# print(student)
+student['city'] = "Kumasi"
+
+print(student)
